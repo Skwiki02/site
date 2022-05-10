@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Gill Sans, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: rgb(0, 255, 4);
+}
+.Liza{
+    width: 200px;
+    border-radius: 26px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+@media(max-widtch:700px) {
+    .info{
+        text-align: center;
+        display: block;
+    }
+
+}
+
+.info p{
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+.container h1{
+ font-size: large;
+ max-width: 750px;
+ 
+
+}
+
+.social {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-yellow{
+    background-color: rgb(112, 226, 228);
+
+}
+
+.bg-green{
+    background-color: #f19bf9;
+
+}
+
+.bg-blue{
+    background-color: rgb(235, 216, 125);
+
+}
+
+.bg-brown{
+    background-color: aquamarine;
+    padding-bottom: 40px;
+
+}
+.bg-black{
+    background-color: #f68585;
+
+}
+
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.table{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.info-text{
+    margin-left: 40px;
+    font-family:Georgia, serif;
+    font-weight: normal;
+    font-size: 20px;
+
+}
